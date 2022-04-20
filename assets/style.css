@@ -1,0 +1,33 @@
+body {
+    font-size: 20px;
+    background-color: cadetblue ;
+}
+
+.highscores {
+    
+}
+
+#highscoreButton {
+    text-decoration: underline;
+    color: black;
+    text
+}
+
+.container {
+    text-align: center;
+}
+
+#playButton {
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+    height: 100px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+#playButton:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
