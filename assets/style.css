@@ -10,7 +10,11 @@ body {
 #highscoreButton {
     text-decoration: underline;
     color: black;
-    text
+}
+
+#homeScreenButton {
+    text-decoration: underline;
+    color: black;
 }
 
 .container {
