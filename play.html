@@ -9,13 +9,30 @@
 </head>
 
 <Header>
-    <div class="highscores">
-        <a href="./highscores.html" id="highscoreButton">Highscores</a>
+    <div class="homescreenLink">
+        <!-- <a href="./highscores.html" id="highscoreButton">Highscores</a> -->
         <a href="./index.html" id="homeScreenButton">Home Screen</a>
     </div>
 </Header>
 
 <body>
-    
+    <div class="container">
+        <div id="playScreen" alt="Play screen">
+            <h2>Answer the following questions correctly</h2>
+        </div>
+
+        <div id="question">
+          <div class="choice">Which of the following is not JavaScript Data Types?</div>
+          <div id="answers">
+              <button id="wrong1" class="button1">A. Boolean </head></button>
+              <button id="correct" class="button2">B. Float </button>
+              <button id="wrong2" class="button3">C. Undefined </button>
+              <button id="wrong3" class="button4">D. Number </button>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>
